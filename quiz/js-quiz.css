@@ -1,0 +1,47 @@
+/* The entire quiz form */
+#quiz-wrap {
+    font-family: arial, sans-serif;
+    background-color: rgb(12, 3, 85);
+    padding-top: 2rem ;
+  }
+  
+  /* Wrapper of each question */
+  #quiz-wrap .question {
+    padding: 15px;
+    margin: 10px;
+    background:#235789; 
+    border: 3px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Question */
+  #quiz-wrap h1 {
+    font-family: arial, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: justify;
+    color: white; /* cor da pergunta*/
+  }
+  
+  /* Options */
+  #quiz-wrap label {
+    display: list-item;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 15px;
+    color:white; /*questoes de escolha*/
+  }
+  
+  /* Submit Button */
+  #quiz-wrap input[type=submit] { /* bota */
+    text-align: center;
+    background: #E86300;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 10px;
+    margin-left: 50%;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
