@@ -19,7 +19,7 @@
     font-family: arial, sans-serif;
     font-size: 22px;
     margin-top: 5px;
-    text-align: justify;
+    text-align: center;
     color: white; /* cor da pergunta*/
   }
   
@@ -35,13 +35,18 @@
   /* Submit Button */
   #quiz-wrap input[type=submit] { /* bota */
     text-align: center;
-    background: #E86300;
-    border-radius: 2rem;
+    background: rgba(36, 62, 102,0.92);
+    border-color: #E86300;
+    border-radius: 5rem;
     color: #fff;
-    padding: 10px;
-    margin-left: 50%;
-    border: 0;
-    padding: 10px 20px;
-    margin-top: 10px;
+    margin-left: 36.6rem;
+    border: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
     font-size: 20px;
+
+   
   }
+
+  #quiz-wrap input[type=submit]:hover {
+    background: #E86300;

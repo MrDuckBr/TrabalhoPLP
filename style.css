@@ -198,6 +198,9 @@ h1{
   background-size: cover;
  
 }
+
+
+
 #video{
   height: auto;
   background-color: rgba(36, 62, 102,0.92);
@@ -218,6 +221,29 @@ padding-right: 6rem;
   padding-left: 11rem;
   margin-bottom: -2.2rem;
 }
+
+#Atualizar{
+  background-color: rgb(12, 3, 85);
+  text-align: center;
+  padding-top: 3rem; /*mudei*/
+  margin-top: -2rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+#mudarbotao{
+  background-color: rgba(36, 62, 102,0.92);
+  border-color: #E86300;
+  color: antiquewhite;
+  border-radius: 2rem;
+  padding: 0.8rem;
+}
+#mudarbotao:hover{
+  background-color:#E86300;
+}
+
 
 #rodape{
   height: auto;
@@ -251,6 +277,22 @@ padding-right: 6rem;
   font-family: arial;
   text-align: justify;
 }
+
+#aulaextend ol{/*lista*/
+  padding-right: 6rem;
+  padding-left: 4rem;
+  color: white;
+  
+  font-family: arial;
+  text-align: justify;
+}
+
+#Linkss{
+  text-align: center;
+  font-family:'Shadows Into Light';
+  font-size: 3rem;
+  color:white;
+}
 #botaoaulasex{
   padding-top: 3rem;
 }
@@ -262,21 +304,20 @@ padding-right: 6rem;
 }
 .b2{
 text-align: right;
- padding-left: 28rem;
- 
- padding-top: 2rem;
- padding-bottom: 2rem;
+ padding-left: 40rem;
+ padding-top: 50rem;
+ padding-bottom:5rem;
 }
 .b3{
   text-align: left!important;
- padding-left: 4  rem;
+ padding-left: 4rem;
  margin-top: 2rem;
 
 }
 .b4{
   text-align: right;
- padding-left: 50rem;
- margin-top: -2rem;
+ padding-left: 45rem;
+
 
 }
 
