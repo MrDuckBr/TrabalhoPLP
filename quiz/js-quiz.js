@@ -85,8 +85,9 @@ var quiz = {
       } else {
         html += "Tente outra vez!";
       }
-      html += "</h1>";
+      
       html += "<div>Você acertou " + score + " de " + total + " (" + percent*100 + "%)" + ".</div>";
+      html += "</h1>";
       document.getElementById("quiz-wrap").innerHTML = html;
     }
   };

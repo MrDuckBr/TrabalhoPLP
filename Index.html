@@ -76,12 +76,17 @@
             
         </div>
          <div id="textosdir" class="textosdir">
-            <div ><img id="img" src="image/imagem1aula.jpeg"></div><!--mudei-->
+            <div id="ImagemFunc" ><img id="img" src="image/Linguagensfunc.png"></div><!--mudei-->
             <div id="escritodir"><!--mudei-->
-                <p>O paradigma Funcional é um paradigma de programação,que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis.
-                <br>O paradigma funcional é um paradigma de programação assim como o orientado a objetos(POO) e o imperativo (existem outros paradigmas).
-                <br>Entende-se como paradigma uma forma de fazer algo. Ou seja, paradigma de programação é o nome que se dá a maneira como se programa, a orientação que seus códigos irão ter.</p>
-            </div>
+                <spn id="semi-titulo">Algumas Linguagens funcionais</spn>
+                <ol>
+                    <li>Haskell</li>
+                    <li>Scala</li>
+                    <li>clojure</li>
+                    <li>scheme</li>
+                    <li>lisp</li>
+                </ol>
+                </div>
         </div>
          <div id="botaoAulas">
           <p>Quer um conteúdo mais completo?</p>
@@ -108,10 +113,15 @@
     </div>
 
     <div id="quiz">
-       <form id="quiz-wrap" ></form>
-
+       <form id="quiz-wrap"></form>
+       
     </div>
-    <div id="rodape">
+
+    <div id="Atualizar">
+        <input id="mudarbotao" type="button" value="Tentar Novamente" onClick="history.go(0)"> 
+    </div>
+    
+        <div id="rodape">
       
       <p>Desenvolvido pelos alunos de Ciência da Computação da UFLA para a disciplina de Paradigmas de Linguagem de Programação.</p>
       <img src="image/ufla.png">
@@ -122,5 +132,5 @@
 <script src="js/jquery.min.js"></script>
 <script src="/quiz/js-quiz-questions.js"></script>
 <script src="/quiz/js-quiz.js"></script>
-
+<!--<input type="reset" value="Reset">-->
 </html>
