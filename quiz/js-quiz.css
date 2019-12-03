@@ -1,11 +1,11 @@
-/* The entire quiz form */
+/* define a forma do quiz */
 #quiz-wrap {
     font-family: arial, sans-serif;
     background-color: rgb(12, 3, 85);
     padding-top: 2rem ;
   }
   
-  /* Wrapper of each question */
+  /*define a forma de onde fica as questoes do quiz*/
   #quiz-wrap .question {
     padding: 15px;
     margin: 10px;
@@ -14,7 +14,7 @@
     border-radius: 10px;
   }
   
-  /* Question */
+  /* define a estilizacao das questoes do quiz*/
   #quiz-wrap h1 {
     font-family: arial, sans-serif;
     font-size: 22px;
@@ -23,7 +23,7 @@
     color: white; /* cor da pergunta*/
   }
   
-  /* Options */
+  /* Define a estilizacao das questoes*/
   #quiz-wrap label {
     display: list-item;
     list-style-type: none;
@@ -32,7 +32,7 @@
     color:white; /*questoes de escolha*/
   }
   
-  /* Submit Button */
+  /* estilizacao do botao enviar*/
   #quiz-wrap input[type=submit] { /* bota */
     text-align: center;
     background: rgba(36, 62, 102,0.92);
@@ -44,9 +44,8 @@
     padding: 1rem 2rem;
     margin-top: 1rem;
     font-size: 20px;
-
-   
   }
-
+/* muda de cor quando passa o mouse*/
   #quiz-wrap input[type=submit]:hover {
     background: #E86300;
+  }

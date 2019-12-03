@@ -1,12 +1,17 @@
+/*Fonte utilizada nos títulos*/
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
+/*Arruma o scroll da página*/
 html{
   scroll-behavior: smooth;
 }
+
+/*Define a margem da pagina, para não ficar branco no lado*/
 body{
   margin: 0;
 }
 
+/*Estilização do menu*/
 #menu{
   font-family: 'Shadows Into Light';
   font-size: 25px;
@@ -15,25 +20,28 @@ body{
   background-color:#003049;
 }
 
-#menu ul{/*editando a listas */
+/*Estilização dos itens do menu*/
+#menu ul{
   margin: 0;
-  list-style: none; /*tira os marcadores */
+  list-style: none;
 }
 
+/*Deixa os itens do menu alinhados*/
 #menu ul li{
   display: inline;
 }
 
-#menu img{/*arrumando icones do menu*/
+/*Arruma os ícones do menu*/
+#menu img{
   padding-left:100px ;
   padding-top: 20px;
   padding-right: 5px;
   padding-bottom: 5px;
   height: 30px;
   width: 30px;
-  
 }
 
+/*Arruma cada item do menu*/
 #menu a{
   padding-right: 100px;
   color: white;
@@ -41,40 +49,40 @@ body{
   display: inline;
 }
 
+/*Arruma o hover(passando o mouse) do menu*/
 #menu ul li a:hover{
   color:#E86300;
 }
 
+/*Arruma o inicio*/
 #inicio{
   background-color:rgba(3, 3, 22, 0.829)!important;
   height: 609px;
   padding-top:30px;
 }
 
+/*Imagem fixada no fundo*/
 #parallax{
-  /* The image used */
   background-image: url(image/egratis.jpg);
-  /* Set a specific height */
   height: 639px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top:30px;
   text-align: center;
-
 }
+
+/*Arruma o título do início*/
 #titulo_inicio{
   color: white;
   margin-top:12rem;
- 
-  
   font-size: 5rem;
   font-family: 'Shadows Into Light';
   align-items: center;
 }
 
+/*Arruma o subtítulo do inicio*/
 #titulo_inicio2{
   color: white;
   margin-top: -3.5rem;
@@ -83,7 +91,8 @@ body{
   align-items: center;
 }
 
-#botao{
+/*Arruma o botão de início*/
+#botaoInicio{
   border: rgba(255, 255, 255, 0.904) solid 0.2rem;
   padding: 0.3rem 1rem 0.2rem 1rem;
   text-decoration: none;
@@ -93,20 +102,22 @@ body{
   font-family: 'Shadows Into Light';
 }
 
-#botao:hover{
+/*Arruma o hover(passando o mouse) do botão do início*/
+#botaoInicio:hover{
   color:#E86300;
   border: #E86300 solid 0.2rem;
   background-color:rgb(12, 3, 85) ;
 }
 
+/*Arruma a seção aula*/
 #aula{
   margin-top: -2rem;
-  height: auto;/*mudar de acordo com os textos e imagens utilizadas*/
+  height: auto;
   background-image: linear-gradient(#040c22,#05102e, rgb(37, 59, 78));
   padding-bottom: 0.5rem;
-  
 }
 
+/*Muda os títulos*/
 h1{
   color: white;
   font-family: 'Shadows Into Light';
@@ -114,59 +125,71 @@ h1{
   font-size: 3rem;
   padding-top: 3.5rem;
 }
-/*mudei testos e escrito*/
+
+/*Arruma textos a esquerda no aula*/
 #textosesq{
   padding-right: 5rem;
   padding-left: 3rem;
   padding-top: 6rem;
-  margin-bottom: 3.5rem;/*ir arrumando com o tamanho do texto e imagem*/
+  margin-bottom: 3.5rem;
   font-family: arial;
   color: white;
   text-align:justify;
 }
+
+/*Arruma as imagens do aula*/
 #img{
-  height: 20rem;/*ir arrumando com o tamanho da imagem*/
-  width: 30rem;/*ir arrumando com o tamanho da imagem*/
+  height: 20rem;
+  width: 30rem;
 }
+
+/*Arruma um texto especifico do aula*/
 .textosdir{
   padding-top: 5rem;
   margin-left: -3rem;
   margin-right: -4rem;
 }
-#escritodir{/*ir arrumando com o tamanho do texto e imagem*/
+
+/*Arruma textos a direita do aula*/
+#escritodir{
   padding-top: 5rem;
   padding-left: 35rem;
   margin-top: -21.3rem;
 }
-#escritoesq{/*ir arrumando com o tamanho do texto e imagem*/
+
+/*Arruma textos a esquerda do aula*/
+#escritoesq{
   padding-right: 35rem;
   padding-top: 3rem;
   margin-bottom: -3rem;
 }
 
-#imgdir{/*ir arrumando com o tamanho do texto e imagem*/
-  
+/*Arruma a imagem  da direita*/
+#imgdir{
   padding-left: 45rem;
   margin-top: -15.3rem;
 }
+
+/*Arruma texto e imagem, onde o escrito esta a direita no aula*/
 #textosdir{
   padding-right: 5rem;
   padding-left: 5rem;
-  margin-bottom: 9rem;/*ir arrumando com o tamanho do texto e imagem*/
+  margin-bottom: 9rem;
   font-family: arial;
   color: white;
   text-align:justify;
 
 }
+/*arruma a margem do topico funcoes*/
 .escritoe{
   margin-top: -6.5rem;
 }
-/*mudando aqui o semi titulo kdiku*/
+/*deixa o nome de cada topico das imagens com um tamanho fixo para todos*/
 #semi-titulo{
   font-size: larger;
   font-weight: bold;
 }
-
+/*Texto e estilizacao do texto do botao*/
 #botaoAulas{
   color: white;
   font-family: 'Shadows Into Light';
@@ -176,6 +199,7 @@ h1{
   font-size: 2rem;
   line-height: 2rem;
 }
+/*Criacao do botao com todas as especificações*/
 #botaoAulas a{
   border: rgba(255, 255, 255, 0.904) solid 0.2rem;
   padding: 0.005rem 1rem 0.1rem 1rem;
@@ -183,12 +207,16 @@ h1{
   color: white;
   border-radius: 2rem;
 }
+/*Arruma o hover(passando o mouse) do botão da secao aulas*/
 #botaoAulas a:hover{
   color:#E86300;
   border: #E86300 solid 0.2rem;
   background-color:rgb(12, 3, 85) ;
 }
 
+/*videos*/
+
+/*arruma a imagem de fundo da secao video e adiciona uma cor em cima para deixar da maneira desejada*/
 #fundolaranja{
   height: auto;
   background-image: url(image/triangulofundi]o.jpg);
@@ -198,9 +226,7 @@ h1{
   background-size: cover;
  
 }
-
-
-
+/*coloca os videos um ao lado do outro*/
 #video{
   height: auto;
   background-color: rgba(36, 62, 102,0.92);
@@ -210,18 +236,21 @@ h1{
   padding-bottom: 2.5rem;
 
 }
+/*coloca o segundo video ao lado do outro*/
 #video1{
-padding-left: 4rem;
+padding-left: 2rem;
 padding-right: 6rem;
 }
-#texto2video{
-  padding-left: 44.7rem;
-}
+/*legenda o primeiro video*/
 #texto1video{
-  padding-left: 11rem;
+  padding-left: 9rem;
   margin-bottom: -2.2rem;
 }
-
+/*legenda do segundo video*/
+#texto2video{
+  padding-left: 42.6rem;
+}
+/*Adiciona a secao do botao para tentar o quiz novamente*/
 #Atualizar{
   background-color: rgb(12, 3, 85);
   text-align: center;
@@ -232,7 +261,14 @@ padding-right: 6rem;
   padding-bottom: 2rem;
   
 }
-
+/* estiliza o nome da secao quiz*/
+#texto_quiz{
+  margin-top: -1rem;
+  margin-bottom: -5rem;
+  background-color:#0C0355;
+  padding-bottom: 2rem ;
+}
+/* estilizacao do botao de tentar novamente*/
 #mudarbotao{
   background-color: rgba(36, 62, 102,0.92);
   border-color: #E86300;
@@ -240,11 +276,13 @@ padding-right: 6rem;
   border-radius: 2rem;
   padding: 0.8rem;
 }
+
+/*Arruma o hover(passando o mouse) do botão de tentar novamente*/
 #mudarbotao:hover{
   background-color:#E86300;
 }
 
-
+/*adiciona a secao rodape que contem as informações dos desenvolvedores*/
 #rodape{
   height: auto;
   padding-bottom: 2.5rem;
@@ -257,19 +295,24 @@ padding-right: 6rem;
   padding-bottom: 1rem;
   line-height: 0.2rem;
 }
+/*ajusta altura e largura do logo da ufla*/
 #rodape img{
   height: 2rem;
   width:5rem;
 }
 
+/*parte do conteudo de aulas extendido*/
+
+/*coloca a imagem e arruma ela conforme necessario*/
 #aulaextend{
   padding-top: 2rem;
-  height: auto;/*mudar de acordo com os textos e imagens utilizadas*/
+  height: auto;
   background-image: linear-gradient(#040c22,#05102e, rgb(37, 59, 78));
   padding-bottom:2.5rem;
   
 
 }
+/*centraliza o texto principal*/
 #aulaextend p{
   padding-right: 4rem;
   padding-left: 4rem;
@@ -277,71 +320,44 @@ padding-right: 6rem;
   font-family: arial;
   text-align: justify;
 }
-
+/* estiliza a lista de linguagens*/
 #aulaextend ol{/*lista*/
   padding-right: 6rem;
   padding-left: 4rem;
   color: white;
-  
   font-family: arial;
   text-align: justify;
 }
-
-#Linkss{
+/* estilizacao do interior dos botoes*/
+#linksAulas{
   text-align: center;
   font-family:'Shadows Into Light';
   font-size: 3rem;
   color:white;
 }
+/*distanca entre cada botao*/
 #botaoaulasex{
   padding-top: 3rem;
 }
+
+/*configuracao de cada botao em relacao ao espaco entre eles e tambem ao posicionamento de cada*/
 .b1{
   padding-top: 5rem;
-  text-align: left!important;
- padding-left: 4rem;
+  padding-bottom: 3rem;
 
 }
 .b2{
-text-align: right;
- padding-left: 40rem;
- padding-top: 50rem;
- padding-bottom:5rem;
+ padding-bottom:3rem;
 }
 .b3{
-  text-align: left!important;
- padding-left: 4rem;
- margin-top: 2rem;
-
+  padding-bottom:3rem;
 }
 .b4{
-  text-align: right;
- padding-left: 45rem;
-
-
+  padding-bottom: 1rem;
 }
-
-#sumario{
-  height: auto;
-  background-image: url(image/083556937_iconl.jpeg);
-  margin-top:-2rem;
-  padding-bottom: 2rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+/*retira numeros de listagem das linguagens */
+ol li {
+  list-style: none;
 }
-
-#sumario a{
- 
-  font-family: 'Shadows Into Light';
-  color: white;
-  font-family: 2rem;
-  text-decoration: none;
-  animation: 10s linear infinite;
-}
-#sumario a:hover{
-  color:#E86300;
-}
-
 
 

@@ -1,4 +1,3 @@
-/* [QUIZ ENGINE] */
 var quiz = {
     draw : function () {
     // quiz.draw() : desenha o quiz
@@ -85,10 +84,10 @@ var quiz = {
       } else {
         html += "Tente outra vez!";
       }
-      
+      //imprime resultado das questoes
       html += "<div>Você acertou " + score + " de " + total + " (" + percent*100 + "%)" + ".</div>";
       html += "</h1>";
-      document.getElementById("quiz-wrap").innerHTML = html;
+      document.getElementById("quiz-wrap").innerHTML = html; // envia pro html a resposta
     }
   };
   
